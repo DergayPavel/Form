@@ -20,7 +20,7 @@ function BlockPassword(props:BlockPasswordType) {
         let arrPass=pass.split('');
         let colNumber=0;
         let colLater=0;
-        arrPass.map((item:any)=>{
+        arrPass.map((item:number)=>{
             if(!isNaN(item)){
                 colNumber+=1;
             }

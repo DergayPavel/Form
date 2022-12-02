@@ -3,7 +3,7 @@ import BlockText from './input/blockText';
 import SignUpName from './name/name';
 import './signUp.css';
 import BlockPassword from './input/blockPassword';
-import React, { useState,useEffect } from 'react';
+import React, { useState,useEffect} from 'react';
 
 
 

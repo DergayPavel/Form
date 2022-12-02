@@ -6,7 +6,7 @@ interface btnType{
 
 function SignUpBtn(props:btnType) {
   const clicBtn=()=>{
-    console.log()
+    console.log('click')
   };
 
   return (
