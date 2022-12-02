@@ -1,0 +1,28 @@
+.imgUser{
+    width: 100%;
+    height: auto;
+}
+
+.userBlock{
+    display:flex;
+    flex-direction:column;
+    width:200px;
+    height:auto;
+    justify-content:space-around;
+    align-items:center;
+    border:1px solid black;
+    margin:5px;
+}
+
+.displayUsers{
+    margin-top: 10px;
+    width:100%;
+    height:auto;
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+
+
+
+
