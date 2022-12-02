@@ -1,4 +1,3 @@
-import { useCallback, useContext } from 'react';
 import '../signUp.css';
 import { Button } from './Button.stuled';
 interface btnType{
@@ -6,7 +5,6 @@ interface btnType{
 }
 
 function SignUpBtn(props:btnType) {
-  
   const clicBtn=()=>{
     console.log()
   };

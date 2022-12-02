@@ -1,5 +1,4 @@
 import { useContext, useState } from "react";
-import { UserContext } from "../../signUp";
 
 interface SignUpBlocktType{
   name:string;
@@ -9,11 +8,6 @@ interface SignUpBlocktType{
 
 function SignUpBlock(props:SignUpBlocktType) {
   const [texts, setTexts]=useState<any>('');
-  
-  const setUser=useContext(UserContext);
-
-  console.log('set:',setUser.User);
-  setUser.setUser(texts);
   
   const handleChangeTexts=(event:any)=>{
   setTexts(event.target.value);
